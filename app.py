@@ -11,7 +11,7 @@ from hedging import simulate_delta_hedge
 
 # ── App init ──────────────────────────────────────────────────────────────────
 app = dash.Dash(__name__, title="Monte Carlo Options | GS-Ready")
-
+server = app.server
 DARK = "#0a0a0f"
 CARD = "#12121a"
 ACCENT = "#4fc3f7"
